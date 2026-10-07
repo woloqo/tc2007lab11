@@ -80,5 +80,6 @@ dependencies {
     implementation(libs.coil.network.okhttp)
     implementation(libs.androidx.exifinterface)
 
-    debugImplementation(libs.androidx.ui.tooling)
+    // Pruebas locales (src/test): corren en la JVM de tu computadora, sin emulador.
+    testImplementation(libs.junit)
 }
